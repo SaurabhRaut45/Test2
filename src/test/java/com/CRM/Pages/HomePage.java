@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import com.CRM.Testcases.BaseClass;
+import com.CRM.Utility.Utility;
 
 public class HomePage extends BaseClass {
 
@@ -38,6 +39,8 @@ public class HomePage extends BaseClass {
 	}
 
 	public String getStatusOfLink() {
+		
+		Utility.getScreenshot(driver);
 		driver.findElement(link).click();
 
 		return driver.getCurrentUrl();

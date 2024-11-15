@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-10T14:23:49 IST" name="Surefire suite" finished-at="2024-11-10T14:24:00 IST" duration-ms="11296">
+  <suite started-at="2024-11-15T16:57:10 IST" name="Surefire suite" finished-at="2024-11-15T16:57:19 IST" duration-ms="9005">
     <groups>
     </groups>
-    <test started-at="2024-11-10T14:23:49 IST" name="Surefire test" finished-at="2024-11-10T14:24:00 IST" duration-ms="11296">
+    <test started-at="2024-11-15T16:57:10 IST" name="Surefire test" finished-at="2024-11-15T16:57:19 IST" duration-ms="9005">
       <class name="com.CRM.Testcases.LoginPageTestCase">
-        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.CRM.Testcases.LoginPageTestCase@7adda9cc]" started-at="2024-11-10T14:24:00 IST" name="pageSetup" finished-at="2024-11-10T14:24:00 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.CRM.Testcases.LoginPageTestCase@7fee8714]" started-at="2024-11-15T16:57:19 IST" name="pageSetup" finished-at="2024-11-15T16:57:19 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.CRM.Pages.HomePage.getStatusOfLink()" because "this.hp" is null]]>
@@ -50,7 +50,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageSetup -->
-        <test-method signature="validateLogin()[pri:0, instance:com.CRM.Testcases.LoginPageTestCase@7adda9cc]" started-at="2024-11-10T14:24:00 IST" name="validateLogin" finished-at="2024-11-10T14:24:00 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateLogin()[pri:0, instance:com.CRM.Testcases.LoginPageTestCase@7fee8714]" started-at="2024-11-15T16:57:19 IST" name="validateLogin" finished-at="2024-11-15T16:57:19 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.CRM.Pages.HomePage.getStatusOfLink()" because "this.hp" is null]]>
@@ -95,19 +95,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- validateLogin -->
       </class> <!-- com.CRM.Testcases.LoginPageTestCase -->
       <class name="com.CRM.Testcases.HomePageTestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.CRM.Testcases.HomePageTestCase@3cc2931c]" started-at="2024-11-10T14:23:49 IST" name="setup" finished-at="2024-11-10T14:24:00 IST" duration-ms="10731" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.CRM.Testcases.HomePageTestCase@3232a28a]" started-at="2024-11-15T16:57:10 IST" name="setup" finished-at="2024-11-15T16:57:19 IST" duration-ms="8387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyUrl()[pri:1, instance:com.CRM.Testcases.HomePageTestCase@3cc2931c]" started-at="2024-11-10T14:24:00 IST" name="verifyUrl" finished-at="2024-11-10T14:24:00 IST" duration-ms="11" status="PASS">
+        <test-method signature="verifyUrl()[pri:1, instance:com.CRM.Testcases.HomePageTestCase@3232a28a]" started-at="2024-11-15T16:57:19 IST" name="verifyUrl" finished-at="2024-11-15T16:57:19 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUrl -->
-        <test-method signature="verifyTitle()[pri:2, instance:com.CRM.Testcases.HomePageTestCase@3cc2931c]" started-at="2024-11-10T14:24:00 IST" name="verifyTitle" finished-at="2024-11-10T14:24:00 IST" duration-ms="12" status="PASS">
+        <test-method signature="verifyTitle()[pri:2, instance:com.CRM.Testcases.HomePageTestCase@3232a28a]" started-at="2024-11-15T16:57:19 IST" name="verifyTitle" finished-at="2024-11-15T16:57:19 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method signature="verifyStatusofLink()[pri:3, instance:com.CRM.Testcases.HomePageTestCase@3cc2931c]" started-at="2024-11-10T14:24:00 IST" name="verifyStatusofLink" finished-at="2024-11-10T14:24:00 IST" duration-ms="507" status="PASS">
+        <test-method signature="verifyStatusofLink()[pri:3, instance:com.CRM.Testcases.HomePageTestCase@3232a28a]" started-at="2024-11-15T16:57:19 IST" name="verifyStatusofLink" finished-at="2024-11-15T16:57:19 IST" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStatusofLink -->
